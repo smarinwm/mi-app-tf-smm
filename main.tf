@@ -48,7 +48,7 @@ resource "aws_instance" "app_server" {
             
             # Clonar el repositorio de GitHub
             cd /home/ec2-user
-            git clone https://github.com/jorloque/mi-app-tf.git
+            git clone https://github.com/smarinwm/mi-app-tf-smm.git
             cd mi-app-tf
             
             # Construir y ejecutar el contenedor Docker
